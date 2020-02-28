@@ -1,5 +1,7 @@
 # IMUF Binaries
-Early binaries may require 4k/4k loops
+Early binaries may require 4k/4k loops.
+
+When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" for these.  When using ANY Helio release, must check-mark it.  These .BIN are unencrypted, whereas HELIO's were encrypted.  If flashed with innappropriate check-mark, then reboot FC and wait 5 full minutes for it to reconenct for re-flashing.
 
 ## Marinus Binaries
 - F3-V2.01-RC1a.bin
