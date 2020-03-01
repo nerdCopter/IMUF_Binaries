@@ -29,4 +29,5 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 - IMUF_223.bin		Just for FillThrillz
 - *_IMUF_224.bin		Potential Release_*
 - IMUF_225.bin 		Sharpness parameter. default 35~=IMUF224; higher=sharper, lower=smoother, 1~=rc209b, 250+=crazy
-- IMUF_226.bin    Sharpness default = 75 due refactored multiplier: [226](https://github.com/emuflight/imu-f/commit/8547dd9df2daa450c53c2d26eec45b4139acc8c8) & [0.2.34](https://github.com/emuflight/EmuFlight/commit/dbfca3c25c022d1e71c234cc88a2b37393bca2f5)
+- IMUF_226.bin    Sharpness default = 75 due refactored multiplier: [226](https://github.com/emuflight/imu-f/commit/9780c1137b74abe29defda9b854cfbf4dbafbc2e) & [0.2.34](https://github.com/emuflight/EmuFlight/commit/dbfca3c25c022d1e71c234cc88a2b37393bca2f5)
+- IMUF_227.bin    more flight efficiency like 221, but better stick feel like 209b [227](https://github.com/emuflight/imu-f/commit/b330fff9d4119b1255e98e1d477e033b3ccf137c) 
