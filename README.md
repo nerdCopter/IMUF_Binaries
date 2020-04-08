@@ -24,9 +24,10 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 - IMUF_217.bin		Dynamic.v1
 - IMUF_218.bin		Dynamic.far less agressive
 - IMUF_219.bin		Dynamic.closer to 216 hopefully it fixes 217-218
-- IMUF_221.bin
-- IMUF_222.bin
-- IMUF_223.bin		Just for FillThrillz
+- IMUF_220.bin    Just for FillThrillz - closer to 209b
+- IMUF_221.bin    Just for FillThrillz - modding the smoothness/sharpness ratio
+- IMUF_222.bin    Just for FillThrillz - modding  the smoothness/sharpness ratio
+- IMUF_223.bin		Just for FillThrillz - modding  the smoothness/sharpness ratio
 - *_IMUF_224.bin		Potential Release_*  - Requires EmuFlight dev version 0.2.31 or *older* **Feels Stiff**.
 
 ## Now with `sharpness` - requires 0.2.32 or newer
