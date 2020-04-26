@@ -11,6 +11,8 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 - F3_RC6-B.bin 		80 fcut freq
 - F3_RC6_C.bin 		60 fcut
 - F3_RC8_acc.bin		First Release Candidate
+
+## Andrey Binary
 - *_F3_RC9b.bin			❤️ First Recommended. w/ Configurable LPF (BuF 3.6.6+). Very clean filtering. Shows `208` in diff_*
 
 ## QuickFlash Binaries
