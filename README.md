@@ -41,8 +41,9 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 - IMUF_228.bin		BUGGED. reported fly-off.  Ramuh test (from RS2K). Sharpness also effects the kalman q like it does for regular fc. Added the kalman Ramuh and made the kalman prediction actually work based on the true acceleration. Requires EmuFlight 0.2.32 or newer.
 - IMUF_229.bin      Purge bugged Ramuh, kept the Kalman Prediction.  Good, but requires re-tuning.  Easy to oscillate.
 - IMUF_230.bin      **Removed cross-axis influence from covariance.** Built off of 225 (due it flew best for QF) and 226. If you want 230 to fly similar to 226 set your imuf LPF filters to 50 hz. If you want 230 to fly similar to 227 set the IMUF lpf filters to 10hz.
+- IMUF_231.bin     Back-ported Paweł Spychalski's covarience math.
 
-
-## Any higher-version numbers, it is highly recommended to **not** use, especially the 240 and 241 series which require a special build of helio/strix .hex for setting test-values.
+## All 230.X, 231.X, 240, 240.X are highly recommended to **not** use; Some of these require a special build of helio/strix .hex for setting test-values.
 
 - `9001` is good and flyable, but removes sharpness. `9002` re-adds sharpness.  Both have static LPF.
+- IMUF_250.bin    ❤️ Released verion of 9002. Sharpness can be turned off with `sharpness=0`.
