@@ -47,3 +47,5 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 
 - `9001` is good and flyable, but removes sharpness. `9002` re-adds sharpness.  Both have static LPF.
 - IMUF_250.bin    ❤️ Released verion of 9002. Sharpness can be turned off with `sharpness=0`.
+- IMUF_251.bin    testing binary. may rocket. move kalman prediction after biquad filter.
+- IMUF_252.bin    testing binary. removed shaoprness in totality. roughly equivalent to 9001, but latest code base.
