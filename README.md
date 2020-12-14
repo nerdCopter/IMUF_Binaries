@@ -16,6 +16,7 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 
 ## Andrey Binary
 - *_F3_RC9b.bin			❤️ First Recommended. w/ Configurable LPF (BuF 3.6.6+). Very clean filtering. Shows `208` in diff_*
+- IMUF_209.bin    Same, more recently recompiled to show `209` in version/CLI.
 
 ## QuickFlash Binaries
 - F3_QF.bin 			(210)
@@ -49,3 +50,6 @@ When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" 
 - IMUF_250.bin    ❤️ Released verion of 9002. Sharpness can be turned off with `sharpness=0`.
 - IMUF_251.bin    testing binary. may rocket. move kalman prediction after biquad filter.
 - IMUF_252.bin    testing binary. removed shaoprness in totality. roughly equivalent to 9001, but latest code base.
+
+## Old HelioRC recompiled
+- IMUF_107_flash-with-unchecked-orig-helio.bin
