@@ -3,7 +3,9 @@
 # IMUF Binaries
 Early binaries may require 4k/4k loops.
 
-When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" for these.  When using ANY Helio release, must check-mark it.  These .BIN are unencrypted, whereas HELIO's were encrypted.  If flashed with innappropriate check-mark, then reboot FC and wait 5 full minutes for it to reconenct for re-flashing.
+# Flasher Tools
+* When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" for EmuFlight IMUF Releases.  When using ANY HelioRC release, must check-mark it.  Emu's .BIN are unencrypted, whereas HelioRC's were encrypted.  If flashed with an innappropriate check-mark setting, then reboot FC and wait 5 full minutes for it to reconnect DFU for re-flashing.
+* EmuFlight now has a Flasher Tool for OSX, Linux, and Windows.  This tool does not need to select the vendor for encrypted/non-encrypted. https://github.com/emuflight/Nemesis/releases/tag/imuf-flasher-0.1.0
 
 ## Marinus Binaries
 - F3-V2.01-RC1a.bin
