@@ -48,10 +48,11 @@ Early binaries may require 4k/4k loops.
 
 ## All 230.X, 231.X, 240, 240.X are highly recommended to **not** use; Some of these require a special build of helio/strix .hex for setting test-values.
 
-- `9001` is good and flyable, but removes sharpness. `9002` re-adds sharpness.  Both have static LPF.
+## Latest
+- `9001`❤️ is good and flyable, but removes sharpness. `9002`❤️ re-adds sharpness.  Both have static LPF.
 - IMUF_250.bin    ❤️ Released verion of 9002. Sharpness can be turned off with `sharpness=0`.
 - IMUF_251.bin    testing binary. may rocket. move kalman prediction after biquad filter.
-- IMUF_252.bin    testing binary. removed sharpness in totality. roughly equivalent to 9001, but latest code base.
+- IMUF_252.bin    ❤️ testing binary. removed sharpness in totality. equivalent to 9001, but latest code base.
 
 ## Old HelioRC recompiled
 - IMUF_107_flash-with-unchecked-orig-helio.bin
