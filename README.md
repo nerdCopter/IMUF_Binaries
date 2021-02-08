@@ -56,3 +56,4 @@ Early binaries may require 4k/4k loops.
 
 ## Old HelioRC recompiled
 - IMUF_107_flash-with-unchecked-orig-helio.bin
+- Original HelioRC: https://github.com/heliorc/imuf-release-dev
