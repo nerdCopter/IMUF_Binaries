@@ -56,6 +56,7 @@ Early binaries may require 4k/4k loops.
 - IMUF_253.bin    testing binary.  incomplete. fixed butoffs, improved kalman, but not yet "more static" k, nor pt2.
 - IMUF_254_PT2.bin ❤️
 - IMUF_255_PT3.bin ❤️
+- IMUF_256_PTN.bin ❤️ Pilot selectable PT(n) via `set ptn_order = `
 
 
 ## Old HelioRC recompiled
