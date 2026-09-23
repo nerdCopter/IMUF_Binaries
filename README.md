@@ -4,8 +4,9 @@
 Early binaries may require 4k/4k loops.
 
 # Flasher Tools
-* When using Marinus' `IMUF Updater.exe`, must un-check "Original HELIO Firmware" for EmuFlight IMUF Releases.  When using ANY HelioRC release, must check-mark it.  Emu's .BIN are unencrypted, whereas HelioRC's were encrypted.  If flashed with an innappropriate check-mark setting, then reboot FC and wait 5 full minutes for it to reconnect DFU for re-flashing.
-* EmuFlight now has a Flasher Tool for OSX, Linux, and Windows.  This tool does not need to select the vendor for encrypted/non-encrypted. https://github.com/emuflight/Nemesis/releases/tag/imuf-flasher-0.1.0
+* Current: EmuflightConfigurator 0.5.0+ has IMU-F Flashing built in.  Connect to HELIOSRING or derivative and see new IMU-F Flasher tab on top of tabs list.
+* Current: EmuFlight now has a Flasher Tool for OSX, Linux, and Windows.  This tool does not need to select the vendor for encrypted/non-encrypted. https://github.com/emuflight/Nemesis/releases/tag/imuf-flasher-0.1.0
+* Legacy: When using Marinus' `IMUF Updater.exe` , must un-check "Original HELIO Firmware" for EmuFlight IMUF Releases.  When using ANY HelioRC release, must check-mark it.  Emu's .BIN are unencrypted, whereas HelioRC's were encrypted.  If flashed with an innappropriate check-mark setting, then reboot FC and wait 5 full minutes for it to reconnect DFU for re-flashing. (The .exe is MIA, if you have a copy, feel free to report/PR.)
 
 ## Marinus Binaries
 - F3-V2.01-RC1a.bin
@@ -51,12 +52,16 @@ Early binaries may require 4k/4k loops.
 ## Latest
 - `9001`❤️ is good and flyable, but removes sharpness. `9002`❤️ re-adds sharpness.  Both have static LPF.
 - IMUF_250.bin    ❤️ Released verion of 9002. Sharpness can be turned off with `sharpness=0`.
-- IMUF_251.bin    testing binary. may rocket. move kalman prediction after biquad filter.
+- IMUF_251.bin    testing binary. may sky-rocket. move kalman prediction after biquad filter.
 - IMUF_252.bin    ❤️ testing binary. removed sharpness in totality. equivalent to 9001, but latest code base.
 - IMUF_253.bin    testing binary.  incomplete. fixed butoffs, improved kalman, but not yet "more static" k, nor pt2.
-- IMUF_254_PT2.bin ❤️
-- IMUF_255_PT3.bin ❤️
+- IMUF_254_PT2.bin
+- IMUF_255_PT3.bin
 - IMUF_256_PTN.bin ❤️ Pilot selectable PT(n) via `set ptn_order = `
+- IMUF_257.bin    ❤️ Released 257. Fixes Kalman filter covariance update to use filtered gyro signal instead of raw gyro: [PR #21](https://github.com/emuflight/imu-f/pull/21). Compiled with legacy `GCC6` (`gcc-arm-none-eabi-6-2017-q1-update`).
+- IMUF_257_GCC13.bin    Non-release 257, same as above. Compiled with `GCC13` (`arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi`).
+- IMUF_258_GCC6.bin    Adds gain smoothing, further stabilizing filter response. Needs D re-tuning (P:D ratio). Compiled with legacy `GCC6` (`gcc-arm-none-eabi-6-2017-q1-update`).
+- IMUF_258_GCC13.bin    Same as above. Compiled with `GCC13` (`arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi`).
 
 
 ## Old HelioRC recompiled
